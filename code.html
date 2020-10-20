@@ -1,37 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="simple_html.css"/>    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cars</title>
+    
 </head>
 <body>
-      <h1>CAR SURVEY</h1>
-      <p><h2><i>Let us know your details...</i></h2></p>
-      <input placeholder="enter your name"/>
-      <p><b>NOTE:</b>Mail id is necessary.</p>
-      <input placeholder="enter your email id"/>
-      <h3>Here are 2 car logos</h3>
-      <div >
-        <div>
-            <h4><pre><em>   BENZ</em></pre></h4>
-            <img src="https://www.logodesignlove.com/images/evolution/mercedes-benz-symbol.jpg" height="70" width="70"/>
-            <div><a href="https://g.co/kgs/SL4Mdc">get more info about Benz</a></div>
+    <div class="main">
+         
+            <h1><ins>CAR SURVEY</ins></h1>
+            <p><h2><i>Let us know your details...</i></h2></p>
+            
+                <input class="firs" placeholder="enter your name"/>
+            
+            <h3><p><b>NOTE:</b>Mail id is necessary.</p></h3>
+            
+                <b><input class="sec" placeholder="enter your email id"/></b>
+            
+            <h3>Here are 2 car logos</h3>
         </div>
-        <div>
-            <h4><pre><em>   AUDI</em></pre></h4>
-            <img src="https://www.hdwallpaper.nu/wp-content/uploads/2015/12/audi-logo-wallpaper-547.jpg" height="70" width="70"/>
-            <div><a href="https://g.co/kgs/FSnL5w">get more info about Audi</a></div>
+        <div class="info">
+            <div class="benz">
+                <h4><pre><em>   BENZ</em></pre></h4>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTYpdkrUDocXLHFlZsjXept2lsAjvQdXxMX0E-ghd3O83Yq0bE-y8oxHt0g35ySRka2_R__W2pmmz-isKASdB9Y-wyoLAJQATqAKfjZ&usqp=CAU&ec=45714078" height="70" width="70"/>
+                
+                    <a  href="https://g.co/kgs/SL4Mdc">get info about Benz</a>
+                
+            </div>
+            <div class="audi">
+                <h4><pre><em><b>   AUDI</b></em></pre></h4>
+                    <img src="https://i.pinimg.com/736x/a0/05/97/a0059726774951b8bce0441c48f1f92e.jpg" height="70" width="70"/>
+                
+                     <a href="https://g.co/kgs/FSnL5w">get info about Audi</a>
+                
+            </div>
         </div>
-      </div>
-      <p><ins><q>Choose the one you liked the most.</q></ins><br> If there isn't any, you can enter your option as <mark>none</mark>.</p>
-      <label>Choose a car:</label>
-      <select>
-          <option>BENZ</option>
-          <option>AUDI</option>
-          <option>NONE</option>
-      </select>
-      <button>submit</button>
+            <div class="option">
+                <b><p><ins><q>Choose the one you liked the most.</q></ins><br> If there isn't any, you can enter your option as <mark>none</mark>.</p></b>
+            </div>
+                <div class="last">
+                <label><b>Choose a car:<b></label>
+                
+                <select>
+                    <option class="opt">BENZ</option>
+                    <option class="opt">AUDI</option>
+                    <option class="opt">NONE</option>
+                </select>
+                
+                
+                    <button class="submit">submit</button>
+                </div>
+        
+    </div>
 </body>
 </html>
